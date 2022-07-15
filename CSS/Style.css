@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, ol, li, a{
+    list-style: none;
+    text-decoration: none;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 150px;
+    height: 50px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.padding_8px{
+    padding: 8px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    box-shadow: 3px 5px 3px 0px black;
+}
+li{
+    margin-right: 8px;
+}
+li:hover{
+    background-color: brown;
+    color: #ffffff;
+}
+a:hover{
+    color: #ffffff;
+}
